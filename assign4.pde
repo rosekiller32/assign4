@@ -199,7 +199,7 @@ void CheckLineHit(){
     for (int j=0; j<aList.length-1; j++) {
       Alien alien = aList[j];
   
-        if(alien != null&&aList[j].aY>=420){
+        if(alien != null&&aList[j].aY>=420 && aList[j].aY<=height){
           status= GAME_LOSE;       
         
         }
