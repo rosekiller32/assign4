@@ -7,7 +7,7 @@ class Alien {
   int aY;
   boolean die = false; 
 
-  Alien(int x, int y) {
+  Alien(float x, float y) {
     aX = x;
     aY = y;
   }
