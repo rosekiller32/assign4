@@ -137,7 +137,9 @@ void keyPressed() {
 void alienMaker(int Num,int row) {
   //aList[0]= new Alien(50, 50);
   for(int i=0;i<=Num-1;i++){
-    aList[i]=new Alien(50+i%row*40,50+i/row*50);
+    float x = i%row;
+    float y = i/row;
+     aList[i]=new Alien(50+40*(int)x,50+50*(int)y);
   }
 }
 
